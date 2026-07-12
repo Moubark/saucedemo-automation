@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-07-12T21:29:53 WIB" name="SauceDemo Automation Suite" finished-at="2026-07-12T21:31:22 WIB" duration-ms="88922">
+    <groups>
+    </groups>
+    <test started-at="2026-07-12T21:29:53 WIB" name="Regression Test" finished-at="2026-07-12T21:31:22 WIB" duration-ms="88922">
+      <class name="tests.LoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTest@75b3673]" started-at="2026-07-12T21:29:53 WIB" name="setUp" finished-at="2026-07-12T21:30:12 WIB" duration-ms="19037" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLoginEmptyFields(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@75b3673]" started-at="2026-07-12T21:30:13 WIB" name="testLoginEmptyFields" description="Login dengan berbagai kombinasi input kosong harus gagal" data-provider="invalidCredentials" finished-at="2026-07-12T21:30:22 WIB" duration-ms="9556" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Username is required]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginEmptyFields -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@75b3673]" started-at="2026-07-12T21:30:23 WIB" name="tearDown" finished-at="2026-07-12T21:30:23 WIB" duration-ms="485" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLoginEmptyFields status=SUCCESS method=LoginTest.testLoginEmptyFields(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@75b3673] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTest@75b3673]" started-at="2026-07-12T21:30:23 WIB" name="setUp" finished-at="2026-07-12T21:30:25 WIB" duration-ms="2002" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLoginEmptyFields(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@75b3673]" started-at="2026-07-12T21:30:25 WIB" name="testLoginEmptyFields" description="Login dengan berbagai kombinasi input kosong harus gagal" data-provider="invalidCredentials" finished-at="2026-07-12T21:30:30 WIB" duration-ms="4724" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Password is required]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginEmptyFields -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@75b3673]" started-at="2026-07-12T21:30:30 WIB" name="tearDown" finished-at="2026-07-12T21:30:30 WIB" duration-ms="244" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLoginEmptyFields status=SUCCESS method=LoginTest.testLoginEmptyFields(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@75b3673] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTest@75b3673]" started-at="2026-07-12T21:30:30 WIB" name="setUp" finished-at="2026-07-12T21:30:36 WIB" duration-ms="6081" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLoginEmptyFields(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@75b3673]" started-at="2026-07-12T21:30:36 WIB" name="testLoginEmptyFields" description="Login dengan berbagai kombinasi input kosong harus gagal" data-provider="invalidCredentials" finished-at="2026-07-12T21:30:39 WIB" duration-ms="2422" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Username is required]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginEmptyFields -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@75b3673]" started-at="2026-07-12T21:30:39 WIB" name="tearDown" finished-at="2026-07-12T21:30:39 WIB" duration-ms="363" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLoginEmptyFields status=SUCCESS method=LoginTest.testLoginEmptyFields(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@75b3673] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTest@75b3673]" started-at="2026-07-12T21:30:39 WIB" name="setUp" finished-at="2026-07-12T21:30:41 WIB" duration-ms="1734" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLoginLockedUser()[pri:0, instance:tests.LoginTest@75b3673]" started-at="2026-07-12T21:30:41 WIB" name="testLoginLockedUser" description="Login dengan user yang di-lock harus ditolak" finished-at="2026-07-12T21:30:46 WIB" duration-ms="5430" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginLockedUser -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@75b3673]" started-at="2026-07-12T21:30:46 WIB" name="tearDown" finished-at="2026-07-12T21:30:47 WIB" duration-ms="467" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLoginLockedUser status=SUCCESS method=LoginTest.testLoginLockedUser()[pri:0, instance:tests.LoginTest@75b3673] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTest@75b3673]" started-at="2026-07-12T21:30:47 WIB" name="setUp" finished-at="2026-07-12T21:30:49 WIB" duration-ms="2327" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLoginSuccess()[pri:0, instance:tests.LoginTest@75b3673]" started-at="2026-07-12T21:30:49 WIB" name="testLoginSuccess" description="Login dengan kredensial valid harus masuk ke halaman produk" finished-at="2026-07-12T21:30:55 WIB" duration-ms="5525" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginSuccess -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@75b3673]" started-at="2026-07-12T21:30:55 WIB" name="tearDown" finished-at="2026-07-12T21:30:56 WIB" duration-ms="589" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLoginSuccess status=SUCCESS method=LoginTest.testLoginSuccess()[pri:0, instance:tests.LoginTest@75b3673] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTest@75b3673]" started-at="2026-07-12T21:30:56 WIB" name="setUp" finished-at="2026-07-12T21:30:58 WIB" duration-ms="2299" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLoginWrongPassword()[pri:0, instance:tests.LoginTest@75b3673]" started-at="2026-07-12T21:30:58 WIB" name="testLoginWrongPassword" description="Login dengan password salah harus menampilkan error" finished-at="2026-07-12T21:31:06 WIB" duration-ms="7800" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWrongPassword -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@75b3673]" started-at="2026-07-12T21:31:06 WIB" name="tearDown" finished-at="2026-07-12T21:31:07 WIB" duration-ms="608" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLoginWrongPassword status=SUCCESS method=LoginTest.testLoginWrongPassword()[pri:0, instance:tests.LoginTest@75b3673] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.LoginTest -->
+      <class name="tests.CartTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.CartTest@7dd00705]" started-at="2026-07-12T21:31:07 WIB" name="setUp" finished-at="2026-07-12T21:31:08 WIB" duration-ms="1963" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="loginFirst()[pri:0, instance:tests.CartTest@7dd00705]" started-at="2026-07-12T21:31:09 WIB" name="loginFirst" finished-at="2026-07-12T21:31:13 WIB" duration-ms="4885" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginFirst -->
+        <test-method signature="testAddSingleItemToCart()[pri:0, instance:tests.CartTest@7dd00705]" started-at="2026-07-12T21:31:13 WIB" name="testAddSingleItemToCart" description="Menambah 1 produk ke cart harus mengupdate badge cart jadi 1" finished-at="2026-07-12T21:31:14 WIB" duration-ms="110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddSingleItemToCart -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.CartTest@7dd00705]" started-at="2026-07-12T21:31:14 WIB" name="tearDown" finished-at="2026-07-12T21:31:14 WIB" duration-ms="357" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testAddSingleItemToCart status=SUCCESS method=CartTest.testAddSingleItemToCart()[pri:0, instance:tests.CartTest@7dd00705] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.CartTest@7dd00705]" started-at="2026-07-12T21:31:14 WIB" name="setUp" finished-at="2026-07-12T21:31:16 WIB" duration-ms="1725" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="loginFirst()[pri:0, instance:tests.CartTest@7dd00705]" started-at="2026-07-12T21:31:16 WIB" name="loginFirst" finished-at="2026-07-12T21:31:21 WIB" duration-ms="5551" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginFirst -->
+        <test-method signature="testSortPriceLowToHigh()[pri:0, instance:tests.CartTest@7dd00705]" started-at="2026-07-12T21:31:21 WIB" name="testSortPriceLowToHigh" description="Sorting produk by &#039;Price (low to high)&#039; harus mengurutkan harga ascending" finished-at="2026-07-12T21:31:21 WIB" duration-ms="213" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSortPriceLowToHigh -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.CartTest@7dd00705]" started-at="2026-07-12T21:31:21 WIB" name="tearDown" finished-at="2026-07-12T21:31:22 WIB" duration-ms="304" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSortPriceLowToHigh status=SUCCESS method=CartTest.testSortPriceLowToHigh()[pri:0, instance:tests.CartTest@7dd00705] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.CartTest -->
+    </test> <!-- Regression Test -->
+  </suite> <!-- SauceDemo Automation Suite -->
+</testng-results>

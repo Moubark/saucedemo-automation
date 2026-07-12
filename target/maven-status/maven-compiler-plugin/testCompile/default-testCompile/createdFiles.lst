@@ -1,0 +1,5 @@
+pages\InventoryPage.class
+tests\BaseTest.class
+tests\CartTest.class
+tests\LoginTest.class
+pages\LoginPage.class
