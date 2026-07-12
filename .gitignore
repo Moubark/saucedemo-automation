@@ -1,0 +1,16 @@
+# Maven build output
+target/
+
+# Allure results & report (auto-generated tiap run)
+.allure/
+allure-results/
+allure-report/
+
+# IDE files
+.idea/
+*.iml
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
